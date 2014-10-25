@@ -1470,14 +1470,14 @@ containing a value of this type.
         public static final int rlc_logo=0x7f02007c;
     }
     public static final class id {
-        public static final int Email=0x7f08005b;
+        public static final int Email=0x7f080058;
         public static final int FirstName=0x7f080055;
-        public static final int LastName=0x7f080057;
+        public static final int LastName=0x7f08005b;
         public static final int Password=0x7f08004e;
-        public static final int Phone=0x7f080059;
-        public static final int SignupFormButton=0x7f08005a;
-        public static final int SignupPassword=0x7f080058;
-        public static final int SignupUsername=0x7f080056;
+        public static final int Phone=0x7f080057;
+        public static final int SignupFormButton=0x7f080056;
+        public static final int SignupPassword=0x7f080059;
+        public static final int SignupUsername=0x7f08005a;
         public static final int Username=0x7f08004f;
         public static final int action_bar=0x7f08002e;
         public static final int action_bar_activity_content=0x7f080027;

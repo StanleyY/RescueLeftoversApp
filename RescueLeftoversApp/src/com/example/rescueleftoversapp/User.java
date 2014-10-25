@@ -74,17 +74,9 @@ public abstract class User {
 		points += amnt;
 	}
 /*----------------------------------OTHERS-----------------------------------*/
-	public void addCurrentPickups(Pickup p) {
-		for (int i = 0; i < currentPickups.size(); i++) {
-			if (p.overlaps(currentPickups.get(i))) {
-				// Raise error message?
-				return;
-			}
-			if (p.earlierThan(currentPickups.get(i))) {
-				currentPickups.add(i, p);
-				break;
-			}
-		}
+	public void addCurrentPickups(Pickup p, int w) {
+		currentPickups.add(p);
+		p.addUser(this, w);
 	}
 
 }
