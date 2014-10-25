@@ -333,8 +333,9 @@ int drawable ic_plusone_tall_off_client 0x7f020078
 int drawable powered_by_google_dark 0x7f020079
 int drawable powered_by_google_light 0x7f02007a
 int drawable rlc_logo 0x7f02007b
-int id EditTextName 0x7f08004e
-int id EditTextPass 0x7f08004f
+int id Password 0x7f08004f
+int id SignupUsername 0x7f080054
+int id Username 0x7f08004e
 int id action_bar 0x7f08002e
 int id action_bar_activity_content 0x7f080027
 int id action_bar_container 0x7f08002d
@@ -346,7 +347,7 @@ int id action_context_bar 0x7f08002f
 int id action_menu_divider 0x7f080028
 int id action_menu_presenter 0x7f080029
 int id action_mode_close_button 0x7f080036
-int id action_settings 0x7f080056
+int id action_settings 0x7f080057
 int id activity_chooser_view_content 0x7f080037
 int id always 0x7f08001e
 int id beginning 0x7f080023
@@ -386,9 +387,9 @@ int id monochrome 0x7f080013
 int id never 0x7f08001c
 int id none 0x7f080000
 int id normal 0x7f080001
-int id pickups 0x7f080055
+int id pickups 0x7f080056
 int id production 0x7f080007
-int id profile 0x7f080054
+int id profile 0x7f080055
 int id progress_circular 0x7f08002a
 int id progress_horizontal 0x7f08002b
 int id radio 0x7f080041
@@ -503,6 +504,8 @@ int string common_signin_button_text_long 0x7f060020
 int string create_calendar_message 0x7f060005
 int string create_calendar_title 0x7f060004
 int string decline 0x7f060003
+int string firstname_hint 0x7f060038
+int string lastname_hint 0x7f060039
 int string login_button 0x7f060034
 int string password_hint 0x7f060037
 int string signup_button 0x7f060035

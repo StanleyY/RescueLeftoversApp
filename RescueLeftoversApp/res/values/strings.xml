@@ -9,6 +9,8 @@
     <string name="signup_button">Sign Up</string>
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="lastname_hint">Last Name</string>
     <color name ="grey">#aaaaaa</color>
     <color name ="white">#FFFFFF</color>
     <color name ="black">#000000</color>

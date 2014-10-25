@@ -10,10 +10,9 @@
     tools:context="com.example.rescueleftoversapp.SignupActivity" >
 
      <EditText
-        android:id="@+id/EditTextName"
+        android:id="@+id/SignupUsername"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/EditTextPass"
         android:layout_alignParentTop="true"
         android:layout_marginTop="30dp"
         android:ems="10"
