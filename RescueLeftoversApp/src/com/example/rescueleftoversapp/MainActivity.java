@@ -1,5 +1,7 @@
 package com.example.rescueleftoversapp;
 
+import java.util.HashMap;
+
 import android.app.Activity;
 import android.app.ActionBar;
 import android.content.Intent;
@@ -10,6 +12,7 @@ import android.view.View;
 
 public class MainActivity extends Activity {
 	public static User currentUser;
+	public static HashMap<String, PasswordUserTuple> map;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +20,7 @@ public class MainActivity extends Activity {
 		ActionBar actionBar = getActionBar();
         actionBar.hide();
 		setContentView(R.layout.activity_main);
+		map = new HashMap<String, PasswordUserTuple>();
 	}
 
 	@Override
