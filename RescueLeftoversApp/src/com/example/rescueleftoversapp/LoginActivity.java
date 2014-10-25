@@ -3,6 +3,7 @@ package com.example.rescueleftoversapp;
 
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -12,6 +13,8 @@ public class LoginActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		ActionBar actionBar = getActionBar();
+        actionBar.hide();
 		setContentView(R.layout.activity_login);
 	}
 	
