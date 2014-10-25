@@ -36,7 +36,8 @@
         android:gravity="center"
         android:text="@string/signup_button"
         android:textColor="@color/black"
-        android:textSize="22sp" />
+        android:textSize="22sp"
+        android:onClick="createUser" />
 
     <EditText
         android:id="@+id/Phone"
