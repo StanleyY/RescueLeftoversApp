@@ -21,7 +21,7 @@
         android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/viewEvents"
+            android:id="@+id/ViewPoints"
             android:layout_width="125dp"
             android:layout_height="35dp"
             android:layout_alignParentLeft="true"
@@ -44,8 +44,8 @@
             android:id="@+id/viewPickupsMissed"
             android:layout_width="125dp"
             android:layout_height="35dp"
-            android:layout_alignLeft="@+id/viewEvents"
-            android:layout_below="@+id/viewEvents"
+            android:layout_alignLeft="@+id/ViewPoints"
+            android:layout_below="@+id/ViewPoints"
             android:layout_marginTop="26dp"
             android:background="@color/white"
             android:gravity="center"
@@ -63,11 +63,11 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/viewPoints"
+            android:id="@+id/viewEmail"
             android:layout_width="125dp"
             android:layout_height="35dp"
-            android:layout_above="@+id/viewEvents"
-            android:layout_alignLeft="@+id/viewEvents"
+            android:layout_above="@+id/ViewPoints"
+            android:layout_alignLeft="@+id/ViewPoints"
             android:layout_alignRight="@+id/viewPickupsMade"
             android:layout_marginBottom="26dp"
             android:background="@color/white"
@@ -78,16 +78,16 @@
             android:id="@+id/viewPhone"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:layout_above="@+id/viewPoints"
-            android:layout_alignLeft="@+id/viewPoints"
-            android:layout_alignRight="@+id/viewPoints"
+            android:layout_above="@+id/viewEmail"
+            android:layout_alignLeft="@+id/viewEmail"
+            android:layout_alignRight="@+id/viewEmail"
             android:layout_marginBottom="18dp"
             android:background="@color/white"
             android:gravity="center"
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/viewEmail"
+            android:id="@+id/viewEvents"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_alignLeft="@+id/viewPickupsMissed"

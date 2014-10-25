@@ -343,6 +343,7 @@ int id SignupFormButton 0x7f08005f
 int id SignupPassword 0x7f080061
 int id SignupUsername 0x7f080062
 int id Username 0x7f08004e
+int id ViewPoints 0x7f080057
 int id action_bar 0x7f08002e
 int id action_bar_activity_content 0x7f080027
 int id action_bar_container 0x7f08002d
@@ -427,13 +428,12 @@ int id title 0x7f08003d
 int id top_action_bar 0x7f080032
 int id up 0x7f080033
 int id useLogo 0x7f080016
-int id viewEmail 0x7f08005c
-int id viewEvents 0x7f080057
+int id viewEmail 0x7f08005b
+int id viewEvents 0x7f08005c
 int id viewFirstName 0x7f080055
 int id viewPhone 0x7f080056
 int id viewPickupsMade 0x7f080058
 int id viewPickupsMissed 0x7f080059
-int id viewPoints 0x7f08005b
 int id viewWeight 0x7f08005a
 int id withText 0x7f08001f
 int id wrap_content 0x7f08000d

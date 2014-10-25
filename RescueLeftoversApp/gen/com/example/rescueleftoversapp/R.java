@@ -1479,6 +1479,7 @@ containing a value of this type.
         public static final int SignupPassword=0x7f080061;
         public static final int SignupUsername=0x7f080062;
         public static final int Username=0x7f08004e;
+        public static final int ViewPoints=0x7f080057;
         public static final int action_bar=0x7f08002e;
         public static final int action_bar_activity_content=0x7f080027;
         public static final int action_bar_container=0x7f08002d;
@@ -1563,13 +1564,12 @@ containing a value of this type.
         public static final int top_action_bar=0x7f080032;
         public static final int up=0x7f080033;
         public static final int useLogo=0x7f080016;
-        public static final int viewEmail=0x7f08005c;
-        public static final int viewEvents=0x7f080057;
+        public static final int viewEmail=0x7f08005b;
+        public static final int viewEvents=0x7f08005c;
         public static final int viewFirstName=0x7f080055;
         public static final int viewPhone=0x7f080056;
         public static final int viewPickupsMade=0x7f080058;
         public static final int viewPickupsMissed=0x7f080059;
-        public static final int viewPoints=0x7f08005b;
         public static final int viewWeight=0x7f08005a;
         public static final int withText=0x7f08001f;
         public static final int wrap_content=0x7f08000d;
