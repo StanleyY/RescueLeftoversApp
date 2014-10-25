@@ -17,11 +17,11 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="62dp"
-        android:background="@color/black"
+        android:background="@drawable/button2"
         android:gravity="center"
         android:text="@string/signup_button"
-        android:textColor="@color/white"
-        android:textSize="28sp" />
+        android:textColor="@color/black"
+        android:textSize="22sp" />
 
     <Button
         android:id="@+id/button1"
@@ -30,11 +30,11 @@
         android:layout_above="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="26dp"
-        android:background="@color/black"
+        android:background="@drawable/button2"
         android:gravity="center"
+        android:onClick="goMap"
         android:text="@string/login_button"
-        android:textColor="@color/white"
-        android:textSize="28sp"
-        android:onClick="goMap"/>
+        android:textColor="@color/black"
+        android:textSize="22sp" />
 
 </RelativeLayout>
