@@ -1,5 +1,6 @@
 package com.example.rescueleftoversapp;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import android.app.Activity;
@@ -11,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 public class MainActivity extends Activity {
+	public static ArrayList<User> currentUserList;
 	public static User currentUser;
 	public static HashMap<String, PasswordUserTuple> map;
     
@@ -20,7 +22,17 @@ public class MainActivity extends Activity {
 		ActionBar actionBar = getActionBar();
         actionBar.hide();
 		setContentView(R.layout.activity_main);
-		map = new HashMap<String, PasswordUserTuple>();
+		// BasicUser(String n, String em, String pn, int w)
+		currentUserList = new ArrayList<User>();
+		User userOne = new BasicUser("Bob Joe", "bjoe@yahoo.com", "123-456-7890", 20);
+		User userTwo = new BasicUser("Mary Jane", "majne@yahoo.com", "123-456-7890", 15);
+		currentUserList.add(userOne);
+		currentUserList.add(userTwo);
+		if (map == null) {
+			map = new HashMap<String, PasswordUserTuple>();
+			User u = new BasicUser("Edward Elric", "edward.elric@jpmchase.com", "911", 100);
+			map.put("a", new PasswordUserTuple("a", u));
+		}
 	}
 
 	@Override

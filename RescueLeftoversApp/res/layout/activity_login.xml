@@ -10,23 +10,6 @@
     tools:context="com.example.rescueleftoversapp.LoginActivity" >
 
     <EditText
-        android:id="@+id/Password"
-        android:layout_width="fill_parent"
-        android:layout_height="35dp"
-        android:layout_below="@+id/Username"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp"
-        android:background="@color/white"
-        android:ems="28"
-        android:gravity="center"
-        android:hint="@string/password_hint"
-        android:inputType="textPassword"
-        android:textColor="@color/black" >
-
-        <requestFocus />
-    </EditText>
-
-    <EditText
         android:id="@+id/Username"
         android:layout_width="fill_parent"
         android:layout_height="35dp"
@@ -40,18 +23,36 @@
         android:inputType="textPersonName"
         android:textColor="@color/black" />
 
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@color/white"
+        android:ems="28"
+        android:gravity="center"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:textColor="@color/black" >
+
+        <requestFocus />
+    </EditText>
+
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_alignLeft="@+id/Password"
         android:layout_alignRight="@+id/Password"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="21dp"
         android:background="@drawable/button2"
         android:gravity="center"
+        android:onClick="goMap"
         android:text="@string/login_button"
         android:textColor="@color/black"
-        android:textSize="22sp"
-        android:onClick="goMap" />
+        android:textSize="22sp" />
 
 </RelativeLayout>

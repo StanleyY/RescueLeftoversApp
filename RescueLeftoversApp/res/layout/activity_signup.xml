@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:gravity="center_horizontal"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -24,25 +25,12 @@
         android:inputType="textPersonName"
         android:textColor="@color/black" />
 
-    <Button
-        android:id="@+id/SignupFormButton"
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/Phone"
-        android:layout_marginTop="35dp"
-        android:background="@drawable/button2"
-        android:gravity="center"
-        android:text="@string/signup_button"
-        android:textColor="@color/black"
-        android:textSize="22sp" />
-
     <EditText
         android:id="@+id/Phone"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_alignLeft="@+id/SignupFormButton"
+        android:layout_alignRight="@+id/SignupFormButton"
         android:layout_below="@+id/Email"
         android:layout_marginTop="14dp"
         android:background="@color/white"
@@ -57,6 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_alignLeft="@+id/Phone"
+        android:layout_alignRight="@+id/Phone"
         android:layout_below="@+id/SignupPassword"
         android:layout_marginTop="15dp"
         android:background="@color/white"
@@ -110,5 +99,20 @@
         android:hint="@string/username_hint"
         android:inputType="textPersonName"
         android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/SignupFormButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/SignupPassword"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Phone"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button2"
+        android:gravity="center"
+        android:onClick="createUser"
+        android:text="@string/signup_button"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
 
 </RelativeLayout>
