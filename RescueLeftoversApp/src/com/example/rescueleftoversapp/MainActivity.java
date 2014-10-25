@@ -1,5 +1,7 @@
 package com.example.rescueleftoversapp;
 
+import java.util.ArrayList;
+
 import android.app.Activity;
 import android.app.ActionBar;
 import android.content.Intent;
@@ -9,7 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 public class MainActivity extends Activity {
-	public static User currentUser;
+	public static ArrayList<User> currentUser;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +19,11 @@ public class MainActivity extends Activity {
 		ActionBar actionBar = getActionBar();
         actionBar.hide();
 		setContentView(R.layout.activity_main);
+		// BasicUser(String n, String em, String pn, int w) 
+		User userOne = new BasicUser("Bob Joe", "bjoe@yahoo.com", "123-456-7890", 20);
+		User userTwo = new BasicUser("Mary Jane", "majne@yahoo.com", "123-456-7890", 15);
+		currentUser.add(userOne);
+		currentUser.add(userTwo);
 	}
 
 	@Override

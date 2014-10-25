@@ -11,5 +11,10 @@ public class ProfileActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_profile);
 	}
+	
+	// viewFirstName
+	//viewEamil
+	//viewOhone
+	//
 
 }
