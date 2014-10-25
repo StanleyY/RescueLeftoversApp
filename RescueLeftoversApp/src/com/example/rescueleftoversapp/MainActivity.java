@@ -1,6 +1,7 @@
 package com.example.rescueleftoversapp;
 
 import android.app.Activity;
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,6 +14,8 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		ActionBar actionBar = getActionBar();
+        actionBar.hide();
 		setContentView(R.layout.activity_main);
 	}
 
