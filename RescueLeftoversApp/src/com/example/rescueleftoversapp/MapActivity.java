@@ -56,10 +56,6 @@ public class MapActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void goMap(View view){
-	    Intent intent = new Intent(this, MapActivity.class);
-	    startActivity(intent);
-	}
 	
 	public void goPickups() {
 		Intent intent = new Intent(this, PickupMenuActivity.class);
