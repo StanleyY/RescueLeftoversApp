@@ -10,9 +10,92 @@
     tools:context="com.example.rescueleftoversapp.ProfileActivity" >
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/viewFirstName"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/viewPhone"
+        android:layout_alignRight="@+id/viewPhone"
+        android:layout_marginTop="26dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/viewEvents"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/viewPickupsMade"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/viewPickupsMissed"
+            android:layout_alignParentRight="true"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/viewPickupsMissed"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/viewEvents"
+            android:layout_below="@+id/viewEvents"
+            android:layout_marginTop="26dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/viewWeight"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_alignBaseline="@+id/viewPickupsMissed"
+            android:layout_alignBottom="@+id/viewPickupsMissed"
+            android:layout_alignLeft="@+id/viewPickupsMade"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/viewPoints"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/viewEvents"
+            android:layout_alignLeft="@+id/viewEvents"
+            android:layout_alignRight="@+id/viewPickupsMade"
+            android:layout_marginBottom="26dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/viewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_above="@+id/viewPoints"
+            android:layout_alignLeft="@+id/viewPoints"
+            android:layout_alignRight="@+id/viewPoints"
+            android:layout_marginBottom="18dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/viewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/viewPickupsMissed"
+            android:layout_alignRight="@+id/viewWeight"
+            android:layout_below="@+id/viewPickupsMissed"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black" />
 
 </RelativeLayout>

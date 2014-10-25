@@ -28,7 +28,9 @@ public class MainActivity extends Activity {
 		User userTwo = new BasicUser("Mary Jane", "majne@yahoo.com", "123-456-7890", 15);
 		currentUserList.add(userOne);
 		currentUserList.add(userTwo);
-		map = new HashMap<String, PasswordUserTuple>();
+		if (map == null) {
+			map = new HashMap<String, PasswordUserTuple>();
+		}
 	}
 
 	@Override

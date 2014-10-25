@@ -9,6 +9,9 @@ public class BasicUser extends User{
 		email = em;
 		phoneN = pn;
 		setCurrentPickups(new ArrayList<Pickup>());
+		pickupsMade = 0;
+		pickupsMissed = 0;
+		points = 0;
 	}
 }
 
