@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
+    android:background="@drawable/background"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.rescueleftoversapp.LoginActivity">
+    tools:context="com.example.rescueleftoversapp.LoginActivity" >
 
     <Button
         android:id="@+id/buttonLogin"
@@ -15,23 +15,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/Password"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="50dp"
         android:background="@color/black"
         android:gravity="center"
         android:text="@string/login_button"
         android:textColor="@color/white"
-        android:textSize="28sp"/>
-
-    <EditText
-        android:id="@+id/Username"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/Password"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="15dp"
-        android:ems="10"
-        android:hint="@string/username_hint"
-        android:inputType="textPersonName"/>
+        android:textSize="28sp" />
 
     <EditText
         android:id="@+id/Password"
@@ -39,9 +28,29 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/Username"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:ems="10"
+        android:layout_marginTop="37dp"
+        android:background="@color/white"
+        android:ems="28"
+        android:gravity="center_horizontal"
         android:hint="@string/password_hint"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:textColor="@color/black" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Password"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:ems="28"
+        android:gravity="center_horizontal"
+        android:hint="@string/username_hint"
+        android:inputType="textPersonName"
+        android:textColor="@color/black" />
 
 </RelativeLayout>
