@@ -21,6 +21,7 @@
     <string name="pickupsmissed_hint">Pickups Missed</string>
     <string name="weight_hint">Weight</string>
     <string name="points_hint">Point</string>
+    <string name="join">Join Event</string>
 
     <color name="grey">#aaaaaa</color>
     <color name="white">#FFFFFF</color>
@@ -30,5 +31,8 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_signup">SignupActivity</string>
     <string name="enterweight_hint">How many pounds can you carry?</string>
+    <string name="title_activity_ping">PingActivity</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_last">LastActivity</string>
 
 </resources>
