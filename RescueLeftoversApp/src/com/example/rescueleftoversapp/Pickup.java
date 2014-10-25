@@ -194,6 +194,19 @@ public class Pickup {
 		return false;
 	}
 	
+	public boolean earlierThan (Pickup p) {
+		Date d = p.getDate();
+		if (date.getYear() != d.getYear()) {
+			return date.getYear() < d.getYear();
+		} else if (date.getMonth() != d.getMonth()) {
+			return date.getMonth() < d.getMonth();
+		} else if (date.getDay() != d.getDay()) {
+			return date.getDay() < d.getDay();
+		} else {
+			return (StartTime.compareTo(p.getStart()) > 0);
+		}
+	}
+	
 	public String[] display () {
 		String[] x = new String[7];
 		x[0] = restaurantName;
