@@ -1469,18 +1469,14 @@ containing a value of this type.
         public static final int rlc_logo=0x7f02007b;
     }
     public static final class id {
-        public static final int Email=0x7f080058;
-        public static final int FirstName=0x7f080054;
-        public static final int LastName=0x7f080055;
+        public static final int Email=0x7f08005b;
+        public static final int FirstName=0x7f080055;
+        public static final int LastName=0x7f080057;
         public static final int Password=0x7f08004f;
-<<<<<<< HEAD
         public static final int Phone=0x7f080059;
         public static final int SignupFormButton=0x7f08005a;
-        public static final int SignupPassword=0x7f080056;
-        public static final int SignupUsername=0x7f080057;
-=======
-        public static final int SignupUsername=0x7f080054;
->>>>>>> ddbaca579ec0631946f2f24b04ba3002cbcc3b1e
+        public static final int SignupPassword=0x7f080058;
+        public static final int SignupUsername=0x7f080056;
         public static final int Username=0x7f080050;
         public static final int action_bar=0x7f08002e;
         public static final int action_bar_activity_content=0x7f080027;
@@ -1493,13 +1489,12 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f08005d;
+        public static final int action_settings=0x7f08005e;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
         public static final int book_now=0x7f080010;
-        public static final int button1=0x7f080052;
-        public static final int button2=0x7f080051;
+        public static final int button2=0x7f080053;
         public static final int buttonLogin=0x7f08004e;
         public static final int buyButton=0x7f08000a;
         public static final int buy_now=0x7f08000f;
@@ -1526,16 +1521,17 @@ containing a value of this type.
         public static final int image=0x7f080039;
         public static final int listMode=0x7f080014;
         public static final int list_item=0x7f08003b;
-        public static final int map=0x7f080053;
+        public static final int loginButton=0x7f080051;
+        public static final int map=0x7f080054;
         public static final int match_parent=0x7f08000c;
         public static final int middle=0x7f080024;
         public static final int monochrome=0x7f080013;
         public static final int never=0x7f08001c;
         public static final int none=0x7f080000;
         public static final int normal=0x7f080001;
-        public static final int pickups=0x7f08005c;
+        public static final int pickups=0x7f08005d;
         public static final int production=0x7f080007;
-        public static final int profile=0x7f08005b;
+        public static final int profile=0x7f08005c;
         public static final int progress_circular=0x7f08002a;
         public static final int progress_horizontal=0x7f08002b;
         public static final int radio=0x7f080041;
@@ -1556,6 +1552,7 @@ containing a value of this type.
         public static final int showCustom=0x7f08001a;
         public static final int showHome=0x7f080017;
         public static final int showTitle=0x7f080019;
+        public static final int signupButton=0x7f080052;
         public static final int split_action_bar=0x7f080030;
         public static final int strict_sandbox=0x7f080009;
         public static final int submit_area=0x7f08004b;
@@ -1631,6 +1628,7 @@ containing a value of this type.
     public static final class menu {
         public static final int main=0x7f0c0000;
         public static final int map=0x7f0c0001;
+        public static final int profile=0x7f0c0002;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1779,20 +1777,13 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f060005;
         public static final int create_calendar_title=0x7f060004;
         public static final int decline=0x7f060003;
-<<<<<<< HEAD
-        public static final int email_hint=0x7f06003a;
-        public static final int firstname_hint=0x7f060038;
-        public static final int lastname_hint=0x7f060039;
-        public static final int login_button=0x7f060034;
-        public static final int password_hint=0x7f060037;
-        public static final int phone_hint=0x7f06003b;
-=======
+        public static final int email_hint=0x7f06003d;
         public static final int firstname_hint=0x7f06003b;
         public static final int hello_world=0x7f060037;
         public static final int lastname_hint=0x7f06003c;
         public static final int login_button=0x7f060034;
         public static final int password_hint=0x7f06003a;
->>>>>>> ddbaca579ec0631946f2f24b04ba3002cbcc3b1e
+        public static final int phone_hint=0x7f06003e;
         public static final int signup_button=0x7f060035;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
