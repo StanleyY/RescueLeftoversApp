@@ -1,6 +1,6 @@
 package com.example.rescueleftoversapp;
 
-public class Time {
+public class Time implements Comparable<Time> {
 	private int hour;
 	private int minute;
 	private String AMPM;
@@ -18,10 +18,10 @@ public class Time {
 		hour = h;
 	}
 	
-	public int setMinute() {
+	public int getMinute() {
 		return minute;
 	}
-	public void getMinute(int m) {
+	public void setMinute(int m) {
 		minute = m;
 	}
 	
@@ -34,5 +34,21 @@ public class Time {
 	
 	public String toString() {
 		return hour + ":" + minute + AMPM;
+	}
+	
+	@Override
+	public int compareTo(Time t) {
+		if (AMPM != t.getAMPM()) {
+			if (AMPM == "AM") {
+				return 1;
+			} else {
+				return -1;
+			}
+		} else if (hour != t.getHour()) {
+			return t.getHour() - hour;
+		} else if (minute != t.getMinute()) {
+			return t.getMinute() - minute;
+		}
+		return 0;
 	}
 }
