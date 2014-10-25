@@ -18,6 +18,7 @@
     <string name="lastname_hint">Last Name</string>
     <string name="email_hint">Email</string>
     <string name="phone_hint">Phone#</string>
+    
     <color name ="grey">#aaaaaa</color>
     <color name ="white">#FFFFFF</color>
     <color name ="black">#000000</color>

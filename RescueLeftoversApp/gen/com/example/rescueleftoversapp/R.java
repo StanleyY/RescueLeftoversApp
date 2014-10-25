@@ -1470,14 +1470,14 @@ containing a value of this type.
         public static final int rlc_logo=0x7f02007c;
     }
     public static final class id {
-        public static final int Email=0x7f08005a;
-        public static final int FirstName=0x7f080054;
-        public static final int LastName=0x7f080056;
+        public static final int Email=0x7f08005b;
+        public static final int FirstName=0x7f080055;
+        public static final int LastName=0x7f080057;
         public static final int Password=0x7f08004e;
-        public static final int Phone=0x7f080058;
-        public static final int SignupFormButton=0x7f080059;
-        public static final int SignupPassword=0x7f080057;
-        public static final int SignupUsername=0x7f080055;
+        public static final int Phone=0x7f080059;
+        public static final int SignupFormButton=0x7f08005a;
+        public static final int SignupPassword=0x7f080058;
+        public static final int SignupUsername=0x7f080056;
         public static final int Username=0x7f08004f;
         public static final int action_bar=0x7f08002e;
         public static final int action_bar_activity_content=0x7f080027;
@@ -1490,7 +1490,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f08005d;
+        public static final int action_settings=0x7f08005e;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
@@ -1529,9 +1529,9 @@ containing a value of this type.
         public static final int never=0x7f08001c;
         public static final int none=0x7f080000;
         public static final int normal=0x7f080001;
-        public static final int pickups=0x7f08005c;
+        public static final int pickups=0x7f08005d;
         public static final int production=0x7f080007;
-        public static final int profile=0x7f08005b;
+        public static final int profile=0x7f08005c;
         public static final int progress_circular=0x7f08002a;
         public static final int progress_horizontal=0x7f08002b;
         public static final int radio=0x7f080041;
@@ -1558,6 +1558,7 @@ containing a value of this type.
         public static final int submit_area=0x7f08004b;
         public static final int tabMode=0x7f080015;
         public static final int terrain=0x7f080003;
+        public static final int textView2=0x7f080054;
         public static final int title=0x7f08003d;
         public static final int top_action_bar=0x7f080032;
         public static final int up=0x7f080033;
