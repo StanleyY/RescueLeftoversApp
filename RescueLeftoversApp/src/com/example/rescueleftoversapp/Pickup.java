@@ -6,8 +6,8 @@ public class Pickup {
 	private String address;
 	private String restaurantName;
 	private Date date;
-	private String StartTime;
-	private String EndTime;
+	private Time StartTime;
+	private Time EndTime;
 	private int totalWeight;
 	private int accumulatedWeight;
 	private String description;
@@ -15,9 +15,9 @@ public class Pickup {
 	private ArrayList<UserWeightTuple> attendants;
 	private ArrayList<UserWeightTuple> waitlist;
 	private boolean visibleToVolunteers; 
-	private User leader;
+	private LeaderUser leader;
 	
-	public Pickup (String restaurant, Date d, String start, String end, String addr, int weight, String desc) {
+	public Pickup (String restaurant, Date d, Time start, Time end, String addr, int weight, String desc) {
 		address = addr;
 		restaurantName = restaurant;
 		date = d;
@@ -33,7 +33,7 @@ public class Pickup {
 		leader = null;
 	}
 	
-	public Pickup (String restaurant, Date d, String start, String end, String addr, int weight) {
+	public Pickup (String restaurant, Date d, Time start, Time end, String addr, int weight) {
 		address = addr;
 		restaurantName = restaurant;
 		date = d;
@@ -70,17 +70,17 @@ public class Pickup {
 		date = d;
 	}
 	
-	public String getStart () {
+	public Time getStart () {
 		return StartTime;
 	}
-	public void setStart (String time) {
+	public void setStart (Time time) {
 		StartTime = time;
 	}
 	
-	public String getEnd () {
+	public Time getEnd () {
 		return EndTime;
 	}
-	public void setEnd (String time) {
+	public void setEnd (Time time) {
 		EndTime = time;
 	}
 	
@@ -124,7 +124,7 @@ public class Pickup {
 		return visibleToVolunteers;
 	}
 	
-	public User getLeader () {
+	public LeaderUser getLeader () {
 		return leader;
 	}
 	
@@ -159,7 +159,7 @@ public class Pickup {
 	}
 	
 	// Returns true if leader is added. Returns false if leader already exists
-	public boolean addLeader (User person, int weight) {
+	public boolean addLeader (LeaderUser person, int weight) {
 		if (leader == null) {
 			visibleToVolunteers = true;
 			leader = person;
@@ -168,5 +168,21 @@ public class Pickup {
 		} else {
 			return false;
 		}
+	}
+	
+	public String[] display () {
+		String[] x = new String[7];
+		x[0] = restaurantName;
+		x[1] = address;
+		x[2] = "People: " + numVolunteers;
+		x[3] = "Weight alotted: " + accumulatedWeight + "/" + totalWeight;
+		if (leader == null) {
+			x[4] = "No Leader";
+		} else {
+			x[4] = "Lead Rescuer: " + leader.getName();
+		}
+		x[5] = "Description: " + description;
+		x[6] = "Time: " + StartTime + "-" + EndTime + " on " + date.toString();
+		return x;
 	}
 }
