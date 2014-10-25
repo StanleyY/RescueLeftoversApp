@@ -1,5 +1,9 @@
 *.class
 *.jar
+*.dex
 *.apk
+*.ap_
 /RescueLeftoversApp/bin/classes
 .DS_Store
+R.txt
+R.java
