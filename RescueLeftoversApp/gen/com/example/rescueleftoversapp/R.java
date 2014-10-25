@@ -1490,7 +1490,11 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
+<<<<<<< HEAD
         public static final int action_settings=0x7f08005e;
+=======
+        public static final int action_settings=0x7f08005b;
+>>>>>>> 789c2684ee8d00a4babe9bdc2036774d9c872196
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
@@ -1627,9 +1631,11 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f03001f;
     }
     public static final class menu {
-        public static final int main=0x7f0c0000;
-        public static final int map=0x7f0c0001;
-        public static final int profile=0x7f0c0002;
+        public static final int login=0x7f0c0000;
+        public static final int main=0x7f0c0001;
+        public static final int map=0x7f0c0002;
+        public static final int profile=0x7f0c0003;
+        public static final int signup=0x7f0c0004;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1788,9 +1794,11 @@ containing a value of this type.
         public static final int signup_button=0x7f060035;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
+        public static final int title_activity_login=0x7f06003f;
         public static final int title_activity_map=0x7f060032;
         public static final int title_activity_pickup_menu=0x7f060036;
         public static final int title_activity_profile=0x7f060038;
+        public static final int title_activity_signup=0x7f060040;
         public static final int username_hint=0x7f060039;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 

@@ -44,10 +44,6 @@ public class MainActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void goMap(View view){
-	    Intent intent = new Intent(this, MapActivity.class);
-	    startActivity(intent);
-	}
 	
 	public void goLogin(View view) {
 	    Intent intent = new Intent(this, LoginActivity.class);
