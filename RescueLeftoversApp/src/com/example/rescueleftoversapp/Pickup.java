@@ -41,7 +41,7 @@ public class Pickup {
 		EndTime = end;
 		totalWeight = weight;
 		accumulatedWeight = 0;
-		description = "";
+		description = "No Description Available";
 		numVolunteers = 0;
 		attendants = new ArrayList<UserWeightTuple>();
 		waitlist = new ArrayList<UserWeightTuple>();
@@ -138,6 +138,7 @@ public class Pickup {
 		}
 		if (temp) {
 			attendants.add(new UserWeightTuple(person, Integer.valueOf(weight)));
+			numVolunteers += 1;
 		}
 		return temp;
 	}
@@ -149,6 +150,7 @@ public class Pickup {
 			if (i.getFirst() == person) {
 				temp = true;
 				attendants.remove(i);
+				numVolunteers -= 1;
 			}
 		}
 		return temp;

@@ -1,5 +1,5 @@
 package com.example.rescueleftoversapp;
-
+// Seems to be unused
 public class PickupDateTuple extends Tuple<Pickup, Date> implements Comparable<PickupDateTuple>{
 	public PickupDateTuple (Pickup p, Date d) { 
 		setFirst(p);

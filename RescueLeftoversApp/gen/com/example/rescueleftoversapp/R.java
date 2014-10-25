@@ -1469,6 +1469,9 @@ containing a value of this type.
         public static final int rlc_logo=0x7f02007b;
     }
     public static final class id {
+        public static final int Password=0x7f08004f;
+        public static final int SignupUsername=0x7f080054;
+        public static final int Username=0x7f080050;
         public static final int action_bar=0x7f08002e;
         public static final int action_bar_activity_content=0x7f080027;
         public static final int action_bar_container=0x7f08002d;
@@ -1480,13 +1483,14 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f080053;
+        public static final int action_settings=0x7f080057;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
         public static final int book_now=0x7f080010;
-        public static final int button1=0x7f08004f;
-        public static final int button2=0x7f08004e;
+        public static final int button1=0x7f080052;
+        public static final int button2=0x7f080051;
+        public static final int buttonLogin=0x7f08004e;
         public static final int buyButton=0x7f08000a;
         public static final int buy_now=0x7f08000f;
         public static final int buy_with_google=0x7f08000e;
@@ -1512,16 +1516,16 @@ containing a value of this type.
         public static final int image=0x7f080039;
         public static final int listMode=0x7f080014;
         public static final int list_item=0x7f08003b;
-        public static final int map=0x7f080050;
+        public static final int map=0x7f080053;
         public static final int match_parent=0x7f08000c;
         public static final int middle=0x7f080024;
         public static final int monochrome=0x7f080013;
         public static final int never=0x7f08001c;
         public static final int none=0x7f080000;
         public static final int normal=0x7f080001;
-        public static final int pickups=0x7f080052;
+        public static final int pickups=0x7f080056;
         public static final int production=0x7f080007;
-        public static final int profile=0x7f080051;
+        public static final int profile=0x7f080055;
         public static final int progress_circular=0x7f08002a;
         public static final int progress_horizontal=0x7f08002b;
         public static final int radio=0x7f080041;
@@ -1617,7 +1621,6 @@ containing a value of this type.
     public static final class menu {
         public static final int main=0x7f0c0000;
         public static final int map=0x7f0c0001;
-        public static final int profile=0x7f0c0002;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1766,14 +1769,18 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f060005;
         public static final int create_calendar_title=0x7f060004;
         public static final int decline=0x7f060003;
+        public static final int firstname_hint=0x7f06003b;
         public static final int hello_world=0x7f060037;
+        public static final int lastname_hint=0x7f06003c;
         public static final int login_button=0x7f060034;
+        public static final int password_hint=0x7f06003a;
         public static final int signup_button=0x7f060035;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
         public static final int title_activity_map=0x7f060032;
         public static final int title_activity_pickup_menu=0x7f060036;
         public static final int title_activity_profile=0x7f060038;
+        public static final int username_hint=0x7f060039;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */
