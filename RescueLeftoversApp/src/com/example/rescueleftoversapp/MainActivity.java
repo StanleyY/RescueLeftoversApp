@@ -56,6 +56,9 @@ public class MainActivity extends Activity {
 		} else if (id == R.id.pickups) {
 			goPickups();
 			return true;
+		} else if(id == R.id.ping){
+			goPing();
+			return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
@@ -82,6 +85,11 @@ public class MainActivity extends Activity {
 	}
 	public void goMap (View v) {
         Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
+    }
+	
+	public void goPing () {
+        Intent intent = new Intent(this, PingActivity.class);
         startActivity(intent);
     }
 }

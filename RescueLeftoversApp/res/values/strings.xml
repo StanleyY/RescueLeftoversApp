@@ -31,5 +31,8 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_signup">SignupActivity</string>
     <string name="enterweight_hint">How many pounds can you carry?</string>
+    <string name="title_activity_ping">PingActivity</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_last">LastActivity</string>
 
 </resources>

@@ -1,17 +1,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.rescueleftoversapp.MainActivity" >
+    tools:context="com.example.rescueleftoversapp.PingActivity" >
 
-    <item android:id="@+id/profile" android:title="Profile"></item><item android:id="@+id/pickups" android:title="Pickups"></item><item
+    <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never"/>
-    <item android:id="@+id/ping" android:title="Ping"></item>
-    
-    <item android:id="@+id/last" android:title="Chat Box"></item>
-    
-    
 
 </menu>
