@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -16,7 +15,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapActivity extends Activity {
-
+    public final static String EXTRA_MESSAGE = "com.example.rescueleftoversapp.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,15 +43,16 @@ public class MapActivity extends Activity {
                 );
             j = j+2;
         }
+        
         map.setOnInfoWindowClickListener(new OnInfoWindowClickListener() {
             @Override
             public void onInfoWindowClick(Marker marker) {
                Intent intent = new Intent(MapActivity.this,PickupActivity.class);
-               String message = ;
+               String message = "Test";
                intent.putExtra(EXTRA_MESSAGE, message);
                startActivity(intent);
             }
-        });
+        }); 
     }
     
     @Override
@@ -80,10 +80,6 @@ public class MapActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void goMap(View view){
-	    Intent intent = new Intent(this, MapActivity.class);
-	    startActivity(intent);
-	}
 	
 	public void goPickups() {
 		Intent intent = new Intent(this, PickupMenuActivity.class);
