@@ -30,6 +30,8 @@ public class MainActivity extends Activity {
 		currentUserList.add(userTwo);
 		if (map == null) {
 			map = new HashMap<String, PasswordUserTuple>();
+			User u = new BasicUser("Edward Elric", "edward.elric@jpmchase.com", "911", 100);
+			map.put("a", new PasswordUserTuple("a", u));
 		}
 	}
 

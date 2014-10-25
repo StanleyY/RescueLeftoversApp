@@ -21,7 +21,7 @@
         android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/ViewPoints"
+            android:id="@+id/viewPoints"
             android:layout_width="125dp"
             android:layout_height="35dp"
             android:layout_alignParentLeft="true"
@@ -44,8 +44,8 @@
             android:id="@+id/viewPickupsMissed"
             android:layout_width="125dp"
             android:layout_height="35dp"
-            android:layout_alignLeft="@+id/ViewPoints"
-            android:layout_below="@+id/ViewPoints"
+            android:layout_alignLeft="@+id/viewPoints"
+            android:layout_below="@+id/viewPoints"
             android:layout_marginTop="26dp"
             android:background="@color/white"
             android:gravity="center"
@@ -66,8 +66,8 @@
             android:id="@+id/viewEmail"
             android:layout_width="125dp"
             android:layout_height="35dp"
-            android:layout_above="@+id/ViewPoints"
-            android:layout_alignLeft="@+id/ViewPoints"
+            android:layout_above="@+id/viewPoints"
+            android:layout_alignLeft="@+id/viewPoints"
             android:layout_alignRight="@+id/viewPickupsMade"
             android:layout_marginBottom="26dp"
             android:background="@color/white"
