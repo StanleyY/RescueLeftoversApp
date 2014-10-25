@@ -35,13 +35,13 @@ public class ProfileActivity extends ActionBarActivity {
 		TextView pmissedfield = (TextView)findViewById(R.id.viewPickupsMissed);
 		
 		// Setting to display
-		nfield.setText(name);
-		emfield.setText(email);
-		phfield.setText(phn);
-		wfield.setText("" + w);
-		pfield.setText("" + p);
-		pmadefield.setText("" + pmade);
-		pmissedfield.setText("" + pmissed);
+		nfield.setText("Name: "+ name);
+		emfield.setText("Email: " + email);
+		phfield.setText("Phone: " + phn);
+		wfield.setText("Weight: " + w);
+		pfield.setText("Points: " + p);
+		pmadefield.setText("Pickups Made: " + pmade);
+		pmissedfield.setText("Pickups Missed: " + pmissed);
 		
 	}
 
