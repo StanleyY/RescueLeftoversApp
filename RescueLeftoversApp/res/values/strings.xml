@@ -16,6 +16,11 @@
     <string name="lastname_hint">Last Name</string>
     <string name="email_hint">Email</string>
     <string name="phone_hint">Phone#</string>
+    <string name="events_hint">Events</string>
+    <string name="pickupsmade_hint">Pickups Made</string>
+    <string name="pickupsmissed_hint">Pickups Missed</string>
+    <string name="weight_hint">Weight</string>
+    <string name="points_hint">Point</string>
 
     <color name="grey">#aaaaaa</color>
     <color name="white">#FFFFFF</color>

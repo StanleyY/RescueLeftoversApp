@@ -1470,15 +1470,17 @@ containing a value of this type.
         public static final int rlc_logo=0x7f02007c;
     }
     public static final class id {
-        public static final int Email=0x7f08005b;
-        public static final int FirstName=0x7f080055;
-        public static final int LastName=0x7f080057;
+        public static final int Email=0x7f08005f;
+        public static final int FirstName=0x7f08005c;
+        public static final int LastName=0x7f080062;
         public static final int Password=0x7f08004e;
-        public static final int Phone=0x7f080059;
-        public static final int SignupFormButton=0x7f08005a;
-        public static final int SignupPassword=0x7f080058;
-        public static final int SignupUsername=0x7f080056;
+        public static final int Phone=0x7f08005e;
+        public static final int SignupFormButton=0x7f08005d;
+        public static final int SignupPassword=0x7f080060;
+        public static final int SignupUsername=0x7f080061;
         public static final int Username=0x7f08004f;
+        public static final int ViewEvents=0x7f080056;
+        public static final int ViewPickupsMissed=0x7f080058;
         public static final int action_bar=0x7f08002e;
         public static final int action_bar_activity_content=0x7f080027;
         public static final int action_bar_container=0x7f08002d;
@@ -1490,7 +1492,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f08005c;
+        public static final int action_settings=0x7f080063;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
@@ -1529,9 +1531,9 @@ containing a value of this type.
         public static final int never=0x7f08001c;
         public static final int none=0x7f080000;
         public static final int normal=0x7f080001;
-        public static final int pickups=0x7f08005e;
+        public static final int pickups=0x7f080065;
         public static final int production=0x7f080007;
-        public static final int profile=0x7f08005d;
+        public static final int profile=0x7f080064;
         public static final int progress_circular=0x7f08002a;
         public static final int progress_horizontal=0x7f08002b;
         public static final int radio=0x7f080041;
@@ -1558,11 +1560,16 @@ containing a value of this type.
         public static final int submit_area=0x7f08004b;
         public static final int tabMode=0x7f080015;
         public static final int terrain=0x7f080003;
-        public static final int textView2=0x7f080054;
         public static final int title=0x7f08003d;
         public static final int top_action_bar=0x7f080032;
         public static final int up=0x7f080033;
         public static final int useLogo=0x7f080016;
+        public static final int viewEmail=0x7f08005b;
+        public static final int viewFirstName=0x7f080054;
+        public static final int viewPhone=0x7f080055;
+        public static final int viewPickupsMade=0x7f080057;
+        public static final int viewPoints=0x7f08005a;
+        public static final int viewWeight=0x7f080059;
         public static final int withText=0x7f08001f;
         public static final int wrap_content=0x7f08000d;
     }
@@ -1781,25 +1788,30 @@ containing a value of this type.
         public static final int create_calendar_title=0x7f060004;
         public static final int decline=0x7f060003;
         public static final int email_hint=0x7f06003d;
+        public static final int events_hint=0x7f06003f;
         public static final int firstname_hint=0x7f06003b;
         public static final int hello_world=0x7f060037;
         public static final int lastname_hint=0x7f06003c;
         public static final int login_button=0x7f060034;
         public static final int password_hint=0x7f06003a;
         public static final int phone_hint=0x7f06003e;
+        public static final int pickupsmade_hint=0x7f060040;
+        public static final int pickupsmissed_hint=0x7f060041;
+        public static final int points_hint=0x7f060043;
         public static final int signup_button=0x7f060035;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
-        public static final int title_activity_login=0x7f06003f;
+        public static final int title_activity_login=0x7f060044;
         public static final int title_activity_map=0x7f060032;
         public static final int title_activity_pickup_menu=0x7f060036;
         public static final int title_activity_profile=0x7f060038;
-        public static final int title_activity_signup=0x7f060040;
+        public static final int title_activity_signup=0x7f060045;
         public static final int username_hint=0x7f060039;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */
         public static final int wallet_buy_button_place_holder=0x7f060022;
+        public static final int weight_hint=0x7f060042;
     }
     public static final class style {
         /** 
