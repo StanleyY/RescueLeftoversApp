@@ -21,6 +21,7 @@
     <string name="pickupsmissed_hint">Pickups Missed</string>
     <string name="weight_hint">Weight</string>
     <string name="points_hint">Point</string>
+    <string name="join">Join Event</string>
 
     <color name="grey">#aaaaaa</color>
     <color name="white">#FFFFFF</color>
