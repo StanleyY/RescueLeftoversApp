@@ -17,13 +17,18 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="62dp"
-        android:background="@color/black"
+        android:background="@drawable/button2"
         android:gravity="center"
         android:text="@string/signup_button"
+<<<<<<< HEAD
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+=======
         android:textColor="@color/white"
         android:textSize="28sp"
     	android:onClick="goLogIn"
     />
+>>>>>>> 27d9110695286b8a10a7bfa4e75fd403eebd4899
 
     <Button
         android:id="@+id/signupButton"
@@ -32,12 +37,18 @@
         android:layout_above="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="26dp"
-        android:background="@color/black"
+        android:background="@drawable/button2"
         android:gravity="center"
+        android:onClick="goMap"
         android:text="@string/login_button"
+<<<<<<< HEAD
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+=======
         android:textColor="@color/white"
         android:textSize="28sp"
         android:onClick="goSignup"
 	/>
+>>>>>>> 27d9110695286b8a10a7bfa4e75fd403eebd4899
 
 </RelativeLayout>
