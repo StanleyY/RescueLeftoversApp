@@ -34,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void goPage(View view){
+	public void goMap(View view){
 	    Intent intent = new Intent(this, MapActivity.class);
 	    startActivity(intent);
 	}

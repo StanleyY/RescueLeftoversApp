@@ -2,3 +2,4 @@
 *.jar
 *.apk
 /RescueLeftoversApp/bin/classes
+.DS_Store
