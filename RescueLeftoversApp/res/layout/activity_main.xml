@@ -11,30 +11,31 @@
     tools:context="com.example.rescueleftoversapp.MainActivity" >
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signupButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="62dp"
-        android:background="@color/black"
+        android:background="@drawable/button2"
         android:gravity="center"
+        android:onClick="goSignUp"
         android:text="@string/signup_button"
-        android:textColor="@color/white"
-        android:textSize="28sp" />
+        android:textColor="@color/black"
+        android:textSize="22sp" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button2"
+        android:layout_above="@+id/signupButton"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="26dp"
-        android:background="@color/black"
+        android:background="@drawable/button2"
         android:gravity="center"
+        android:onClick="goLogin"
         android:text="@string/login_button"
-        android:textColor="@color/white"
-        android:textSize="28sp"
-        android:onClick="goMap"/>
+        android:textColor="@color/black"
+        android:textSize="22sp" />
 
 </RelativeLayout>

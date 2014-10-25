@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 public class MainActivity extends Activity {
-
+	public static User currentUser;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -35,8 +35,10 @@ public class MainActivity extends Activity {
 		if (id == R.id.action_settings) {
 			return true;
 		} else if (id == R.id.profile) {
+			goProfile();
 			return true;
 		} else if (id == R.id.pickups) {
+			goPickups();
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
@@ -45,5 +47,25 @@ public class MainActivity extends Activity {
 	public void goMap(View view){
 	    Intent intent = new Intent(this, MapActivity.class);
 	    startActivity(intent);
+	}
+	
+	public void goLogin(View view) {
+	    Intent intent = new Intent(this, LoginActivity.class);
+	    startActivity(intent);
+	}
+	
+	public void goSignup(View view) {
+	    Intent intent = new Intent(this, SignupActivity.class);
+	    startActivity(intent);
+	}
+	
+	public void goPickups() {
+		Intent intent = new Intent(this, PickupMenuActivity.class);
+		startActivity(intent);
+	}
+	
+	public void goProfile() {
+		Intent intent = new Intent(this, ProfileActivity.class);
+		startActivity(intent);
 	}
 }

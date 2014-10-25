@@ -4,11 +4,20 @@
     <string name="app_name">RescueLeftoversApp</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_map">MainActivity</string>
-	<string name="app_title">Rescuing Leftover Cuisine</string>
+    <string name="app_title">Rescuing Leftover Cuisine</string>
     <string name="login_button">Login</string>
     <string name="signup_button">Sign Up</string>
+
+    <string name="title_activity_pickup_menu">PickupMenuActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="lastname_hint">Last Name</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_hint">Phone#</string>
     <color name ="grey">#aaaaaa</color>
     <color name ="white">#FFFFFF</color>
     <color name ="black">#000000</color>
