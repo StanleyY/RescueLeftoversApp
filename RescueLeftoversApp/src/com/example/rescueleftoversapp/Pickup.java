@@ -137,7 +137,7 @@ public class Pickup {
 			}
 		}
 		if (temp) {
-			attendants.add(new UserWeightTuple(person, new Integer(weight)));
+			attendants.add(new UserWeightTuple(person, Integer.valueOf(weight)));
 		}
 		return temp;
 	}
