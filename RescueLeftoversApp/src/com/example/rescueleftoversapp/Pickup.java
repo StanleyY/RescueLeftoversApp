@@ -183,5 +183,6 @@ public class Pickup {
 		}
 		x[5] = "Description: " + description;
 		x[6] = "Time: " + StartTime + "-" + EndTime + " on " + date.toString();
+		return x;
 	}
 }
