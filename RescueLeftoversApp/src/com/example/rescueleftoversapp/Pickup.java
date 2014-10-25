@@ -154,8 +154,18 @@ public class Pickup {
 		return temp;
 	}
 	
-	public void waitlist (User person, int weight) {
-		
+	// Returns true of add onto waitlist successful, false if user is already on the list.
+	public boolean waitlistAdd (User person, int weight) {
+		boolean temp = true;
+		for (UserWeightTuple i : waitlist) {
+			if (i.getFirst() == person) {
+				temp = false;
+			}
+		}
+		if (temp) {
+			waitlist.add(new UserWeightTuple(person, Integer.valueOf(weight)));
+		}
+		return temp;
 	}
 	
 	// Returns true if leader is added. Returns false if leader already exists
@@ -167,6 +177,33 @@ public class Pickup {
 			return true;
 		} else {
 			return false;
+		}
+	}
+	
+	public boolean overlaps (Pickup p) {
+		Date d = p.getDate();
+		if ((date.getMonth() == d.getMonth()) && (date.getDay() == d.getDay()) && (date.getYear() == d.getYear())) {
+			Time s = p.getStart();
+			Time e = p.getEnd();
+			if ((StartTime.compareTo(s) >= 0) && (EndTime.compareTo(s) <= 0)) {
+				return true;
+			} else if ((StartTime.compareTo(e) >= 0) && (EndTime.compareTo(e) <= 0)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public boolean earlierThan (Pickup p) {
+		Date d = p.getDate();
+		if (date.getYear() != d.getYear()) {
+			return date.getYear() < d.getYear();
+		} else if (date.getMonth() != d.getMonth()) {
+			return date.getMonth() < d.getMonth();
+		} else if (date.getDay() != d.getDay()) {
+			return date.getDay() < d.getDay();
+		} else {
+			return (StartTime.compareTo(p.getStart()) > 0);
 		}
 	}
 	

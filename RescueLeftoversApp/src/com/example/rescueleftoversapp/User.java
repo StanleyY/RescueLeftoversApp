@@ -57,7 +57,7 @@ public abstract class User {
 		currentPickups = cp;
 	}
 
-/*-----------------------------------INCREMENTER------------------------------*/
+/*-----------------------------------INCREMENTER-----------------------------*/
 	public void incrementPickupsMade() {
 		pickupsMade++;
 	}
@@ -67,5 +67,18 @@ public abstract class User {
 	public void incrementPoints(int amnt) {
 		points += amnt;
 	}
-	/*----------------------------------OTHERS--------------------------------*/
+/*----------------------------------OTHERS-----------------------------------*/
+	public void addCurrentPickups(Pickup p) {
+		for (int i = 0; i < currentPickups.size(); i++) {
+			if (p.overlaps(currentPickups.get(i))) {
+				// Raise error message?
+				return;
+			}
+			if (p.earlierThan(currentPickups.get(i))) {
+				currentPickups.add(i, p);
+				break;
+			}
+		}
+	}
+
 }
