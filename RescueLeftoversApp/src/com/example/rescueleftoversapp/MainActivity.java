@@ -1,14 +1,15 @@
 package com.example.rescueleftoversapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
+    
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -29,6 +30,10 @@ public class MainActivity extends ActionBarActivity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
+			return true;
+		} else if (id == R.id.profile) {
+			return true;
+		} else if (id == R.id.pickups) {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
