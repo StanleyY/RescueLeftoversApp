@@ -9,8 +9,10 @@ import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapActivity extends Activity {
@@ -42,6 +44,15 @@ public class MapActivity extends Activity {
                 );
             j = j+2;
         }
+        map.setOnInfoWindowClickListener(new OnInfoWindowClickListener() {
+            @Override
+            public void onInfoWindowClick(Marker marker) {
+               Intent intent = new Intent(MapActivity.this,PickupActivity.class);
+               String message = ;
+               intent.putExtra(EXTRA_MESSAGE, message);
+               startActivity(intent);
+            }
+        });
     }
     
     @Override
