@@ -16,6 +16,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapActivity extends Activity {
     public final static String EXTRA_MESSAGE = "com.example.rescueleftoversapp.MESSAGE";
+    public final static String CURRENT_MARKER = "test";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,8 +50,9 @@ public class MapActivity extends Activity {
             @Override
             public void onInfoWindowClick(Marker marker) {
                Intent intent = new Intent(MapActivity.this,PickupActivity.class);
-               String message = "Test";
+               String message = marker.getTitle()+marker.getSnippet();
                intent.putExtra(EXTRA_MESSAGE, message);
+               intent.putExtra(CURRENT_MARKER, "Test");
                startActivity(intent);
             }
         }); 
