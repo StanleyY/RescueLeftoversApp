@@ -138,6 +138,7 @@ public class Pickup {
 		}
 		if (temp) {
 			attendants.add(new UserWeightTuple(person, Integer.valueOf(weight)));
+			numVolunteers += 1;
 		}
 		return temp;
 	}
@@ -149,6 +150,7 @@ public class Pickup {
 			if (i.getFirst() == person) {
 				temp = true;
 				attendants.remove(i);
+				numVolunteers -= 1;
 			}
 		}
 		return temp;
