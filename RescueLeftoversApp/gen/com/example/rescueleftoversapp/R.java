@@ -1609,13 +1609,15 @@ containing a value of this type.
         public static final int activity_main=0x7f030019;
         public static final int activity_map=0x7f03001a;
         public static final int activity_pickup=0x7f03001b;
-        public static final int activity_profile=0x7f03001c;
-        public static final int activity_signup=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static final int activity_pickup_menu=0x7f03001c;
+        public static final int activity_profile=0x7f03001d;
+        public static final int activity_signup=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
         public static final int map=0x7f0c0001;
+        public static final int profile=0x7f0c0002;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1764,11 +1766,14 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f060005;
         public static final int create_calendar_title=0x7f060004;
         public static final int decline=0x7f060003;
+        public static final int hello_world=0x7f060037;
         public static final int login_button=0x7f060034;
         public static final int signup_button=0x7f060035;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
         public static final int title_activity_map=0x7f060032;
+        public static final int title_activity_pickup_menu=0x7f060036;
+        public static final int title_activity_profile=0x7f060038;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */

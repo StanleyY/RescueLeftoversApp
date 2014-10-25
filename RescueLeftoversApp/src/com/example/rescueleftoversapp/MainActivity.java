@@ -31,8 +31,10 @@ public class MainActivity extends ActionBarActivity {
 		if (id == R.id.action_settings) {
 			return true;
 		} else if (id == R.id.profile) {
+			goProfile();
 			return true;
 		} else if (id == R.id.pickups) {
+			goPickups();
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
@@ -41,5 +43,15 @@ public class MainActivity extends ActionBarActivity {
 	public void goMap(View view){
 	    Intent intent = new Intent(this, MapActivity.class);
 	    startActivity(intent);
+	}
+	
+	public void goPickups() {
+		Intent intent = new Intent(this, PickupMenuActivity.class);
+		startActivity(intent);
+	}
+	
+	public void goProfile() {
+		Intent intent = new Intent(this, ProfileActivity.class);
+		startActivity(intent);
 	}
 }
