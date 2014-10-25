@@ -16,12 +16,6 @@
     <string name="lastname_hint">Last Name</string>
     <string name="email_hint">Email</string>
     <string name="phone_hint">Phone#</string>
-<<<<<<< HEAD
-    
-    <color name ="grey">#aaaaaa</color>
-    <color name ="white">#FFFFFF</color>
-    <color name ="black">#000000</color>
-=======
 
     <color name="grey">#aaaaaa</color>
     <color name="white">#FFFFFF</color>
@@ -30,5 +24,4 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_signup">SignupActivity</string>
 
->>>>>>> 789c2684ee8d00a4babe9bdc2036774d9c872196
 </resources>
