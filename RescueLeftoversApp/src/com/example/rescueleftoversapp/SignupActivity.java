@@ -3,6 +3,7 @@ package com.example.rescueleftoversapp;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -31,5 +32,8 @@ public class SignupActivity extends ActionBarActivity {
 		phoneN.setText("");
 		email.setText("");
 		pass.setText("");
+		Intent intent = new Intent(this, MainActivity.class);
+		startActivity(intent);
+		finish();
 	}
 }
