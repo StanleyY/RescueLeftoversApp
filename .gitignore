@@ -1,3 +1,4 @@
 *.class
 *.jar
 /RescueLeftoversApp/bin/classes
+.DS_Store
