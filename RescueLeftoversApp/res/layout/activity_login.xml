@@ -9,33 +9,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.rescueleftoversapp.LoginActivity" >
 
-
-    <Button
-        android:id="@+id/buttonLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonSignup"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="26dp"
-        android:background="@color/black"
-        android:gravity="center"
-        android:text="@string/login_button"
-        android:textColor="@color/white"
-        android:textSize="28sp" />
-    
-        <Button
-        android:id="@+id/buttonSignup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="62dp"
-        android:background="@color/black"
-        android:gravity="center"
-        android:text="@string/signup_button"
-        android:textColor="@color/white"
-        android:textSize="28sp" />
-
     <EditText
         android:id="@+id/EditTextName"
         android:layout_width="fill_parent"
@@ -53,10 +26,22 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/EditTextName"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="18dp"
         android:ems="10"
         android:hint="@string/password_hint"
-        android:inputType="textPersonName" >
-    </EditText>
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="@string/login_button"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
 
 </RelativeLayout>
