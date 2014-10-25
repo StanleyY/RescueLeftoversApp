@@ -13,7 +13,8 @@
         android:id="@+id/FirstName"
         android:layout_width="fill_parent"
         android:layout_height="35dp"
-        android:layout_alignLeft="@+id/SignupUsername"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="14dp"
         android:background="@color/white"
@@ -23,13 +24,72 @@
         android:inputType="textPersonName"
         android:textColor="@color/black" />
 
+    <Button
+        android:id="@+id/SignupFormButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Phone"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button2"
+        android:gravity="center"
+        android:text="@string/signup_button"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/SignupFormButton"
+        android:layout_below="@+id/Email"
+        android:layout_marginTop="14dp"
+        android:background="@color/white"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="@string/phone_hint"
+        android:inputType="phone"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/Phone"
+        android:layout_below="@+id/SignupPassword"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/SignupPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/SignupUsername"
+        android:layout_below="@+id/SignupUsername"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:textColor="@color/black" />
+
     <EditText
         android:id="@+id/LastName"
         android:layout_width="fill_parent"
         android:layout_height="35dp"
         android:layout_alignLeft="@+id/FirstName"
         android:layout_below="@+id/FirstName"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="18dp"
         android:background="@color/white"
         android:ems="15"
         android:gravity="center"
@@ -41,73 +101,14 @@
         android:id="@+id/SignupUsername"
         android:layout_width="fill_parent"
         android:layout_height="35dp"
-        android:layout_alignLeft="@+id/SignupPassword"
+        android:layout_alignLeft="@+id/LastName"
         android:layout_below="@+id/LastName"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:background="@color/white"
         android:ems="15"
         android:gravity="center"
         android:hint="@string/username_hint"
         android:inputType="textPersonName"
-        android:textColor="@color/black" />
-
-    <EditText
-        android:id="@+id/Phone"
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
-        android:layout_alignLeft="@+id/SignupFormButton"
-        android:layout_below="@+id/Email"
-        android:layout_marginTop="18dp"
-        android:background="@color/white"
-        android:ems="15"
-        android:gravity="center"
-        android:hint="@string/phone_hint"
-        android:inputType="phone"
-        android:textColor="@color/black" >
-
-        <requestFocus />
-    </EditText>
-
-    <EditText
-        android:id="@+id/SignupPassword"
-        android:layout_width="fill_parent"
-        android:layout_height="35dp"
-        android:layout_below="@+id/SignupUsername"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        android:background="@color/white"
-        android:ems="15"
-        android:gravity="center"
-        android:hint="@string/password_hint"
-        android:inputType="textPassword"
-        android:textColor="@color/black" />
-
-    <Button
-        android:id="@+id/SignupFormButton"
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
-        android:layout_alignLeft="@+id/SignupPassword"
-        android:layout_alignRight="@+id/SignupPassword"
-        android:layout_below="@+id/Phone"
-        android:layout_marginTop="35dp"
-        android:background="@drawable/button2"
-        android:gravity="center"
-        android:text="@string/signup_button"
-        android:textColor="@color/black"
-        android:textSize="22sp" />
-
-    <EditText
-        android:id="@+id/Email"
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
-        android:layout_alignLeft="@+id/SignupPassword"
-        android:layout_below="@+id/SignupPassword"
-        android:layout_marginTop="19dp"
-        android:background="@color/white"
-        android:ems="15"
-        android:gravity="center"
-        android:hint="@string/email_hint"
-        android:inputType="textEmailAddress"
         android:textColor="@color/black" />
 
 </RelativeLayout>
