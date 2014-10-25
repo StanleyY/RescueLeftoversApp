@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!--
      The following two permissions are not required to use
-     Google Maps Android API v2, but are recommended.
+     Google Maps Android API v2, but are recommended.
     -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -77,19 +77,28 @@
         </activity>
         <activity
             android:name=".PingActivity"
-            android:label="@string/title_activity_ping" >
+            android:label="@string/title_activity_ping"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name=".Chat"
-            android:label="@string/title_activity_chat" >
+            android:name=".RealPingActivity"
+            android:label="@string/title_activity_real_ping" >
+        </activity>
+        <activity
+            android:name=".RouteActivity"
+            android:label="@string/title_activity_route" >
+        </activity>
+        <activity
+            android:name=".CheckActivity"
+            android:label="@string/title_activity_check" >
         </activity>
         <activity
             android:name=".ChatActivity"
             android:label="@string/title_activity_chat" >
         </activity>
         <activity
-            android:name=".LastActivity"
-            android:label="@string/title_activity_last" >
+            android:name=".BoxActivity"
+            android:label="@string/title_activity_box" >
         </activity>
     </application>
 

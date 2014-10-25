@@ -11,7 +11,7 @@ public class PingActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		android.app.ActionBar actionBar = getActionBar();
         actionBar.hide();
-		setContentView(R.layout.activity_ping);
 		setTitle("");
+		setContentView(R.layout.activity_ping);
 	}
 }

@@ -32,7 +32,10 @@
     <string name="title_activity_signup">SignupActivity</string>
     <string name="enterweight_hint">How many pounds can you carry?</string>
     <string name="title_activity_ping">PingActivity</string>
-    <string name="title_activity_chat">Chat</string>
-    <string name="title_activity_last">LastActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_real_ping">RealPingActivity</string>
+    <string name="title_activity_route">RouteActivity</string>
+    <string name="title_activity_check">CheckActivity</string>
+    <string name="title_activity_box">BoxActivity</string>
 
 </resources>

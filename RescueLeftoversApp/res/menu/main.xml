@@ -8,9 +8,7 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never"/>
-    <item android:id="@+id/ping" android:title="Ping"></item>
     
-    <item android:id="@+id/last" android:title="Chat Box"></item>
     
     
 
