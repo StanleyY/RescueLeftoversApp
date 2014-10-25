@@ -19,6 +19,7 @@
         android:layout_marginBottom="62dp"
         android:background="@drawable/button2"
         android:gravity="center"
+        android:onClick="goSignUp"
         android:text="@string/signup_button"
         android:textColor="@color/black"
         android:textSize="22sp" />
@@ -32,7 +33,7 @@
         android:layout_marginBottom="26dp"
         android:background="@drawable/button2"
         android:gravity="center"
-        android:onClick="goMap"
+        android:onClick="goLogin"
         android:text="@string/login_button"
         android:textColor="@color/black"
         android:textSize="22sp" />
