@@ -344,7 +344,7 @@ int id action_context_bar 0x7f08002f
 int id action_menu_divider 0x7f080028
 int id action_menu_presenter 0x7f080029
 int id action_mode_close_button 0x7f080036
-int id action_settings 0x7f080051
+int id action_settings 0x7f080053
 int id activity_chooser_view_content 0x7f080037
 int id always 0x7f08001e
 int id beginning 0x7f080023
@@ -383,7 +383,9 @@ int id monochrome 0x7f080013
 int id never 0x7f08001c
 int id none 0x7f080000
 int id normal 0x7f080001
+int id pickups 0x7f080052
 int id production 0x7f080007
+int id profile 0x7f080051
 int id progress_circular 0x7f08002a
 int id progress_horizontal 0x7f08002b
 int id radio 0x7f080041

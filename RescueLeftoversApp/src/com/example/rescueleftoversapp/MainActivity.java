@@ -30,6 +30,10 @@ public class MainActivity extends ActionBarActivity {
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
 			return true;
+		} else if (id == R.id.profile) {
+			return true;
+		} else if (id == R.id.pickups) {
+			return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
