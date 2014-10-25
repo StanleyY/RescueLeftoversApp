@@ -128,21 +128,45 @@ public class Pickup {
 		return leader;
 	}
 	
-	public void addUser (User person, int weight) {
-		attendants.add(new UserWeightTuple(person, new Integer(weight)));
+	// Return true if add successful, return false if user already in the list
+	public boolean addUser (User person, int weight) {
+		boolean temp = true;
+		for (UserWeightTuple i : attendants) {
+			if (i.getFirst() == person) {
+				temp = false;
+			}
+		}
+		if (temp) {
+			attendants.add(new UserWeightTuple(person, new Integer(weight)));
+		}
+		return temp;
 	}
 	
-	public void dropUser (User person) {
-		
+	// Returns true if drop successful, return false if user not in the list.
+	public boolean dropUser (User person) {
+		boolean temp = false;
+		for (UserWeightTuple i : attendants) {
+			if (i.getFirst() == person) {
+				temp = true;
+				attendants.remove(i);
+			}
+		}
+		return temp;
 	}
 	
 	public void waitlist (User person, int weight) {
 		
 	}
 	
-	public void addLeader (User person, int weight) {
-		visibleToVolunteers = true;
-		leader = person;
-		addUser(person, weight);
+	// Returns true if leader is added. Returns false if leader already exists
+	public boolean addLeader (User person, int weight) {
+		if (leader == null) {
+			visibleToVolunteers = true;
+			leader = person;
+			addUser(person, weight);
+			return true;
+		} else {
+			return false;
+		}
 	}
 }
