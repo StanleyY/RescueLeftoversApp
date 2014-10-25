@@ -1473,10 +1473,14 @@ containing a value of this type.
         public static final int FirstName=0x7f080054;
         public static final int LastName=0x7f080055;
         public static final int Password=0x7f08004f;
+<<<<<<< HEAD
         public static final int Phone=0x7f080059;
         public static final int SignupFormButton=0x7f08005a;
         public static final int SignupPassword=0x7f080056;
         public static final int SignupUsername=0x7f080057;
+=======
+        public static final int SignupUsername=0x7f080054;
+>>>>>>> ddbaca579ec0631946f2f24b04ba3002cbcc3b1e
         public static final int Username=0x7f080050;
         public static final int action_bar=0x7f08002e;
         public static final int action_bar_activity_content=0x7f080027;
@@ -1619,9 +1623,10 @@ containing a value of this type.
         public static final int activity_main=0x7f030019;
         public static final int activity_map=0x7f03001a;
         public static final int activity_pickup=0x7f03001b;
-        public static final int activity_profile=0x7f03001c;
-        public static final int activity_signup=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static final int activity_pickup_menu=0x7f03001c;
+        public static final int activity_profile=0x7f03001d;
+        public static final int activity_signup=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1774,17 +1779,27 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f060005;
         public static final int create_calendar_title=0x7f060004;
         public static final int decline=0x7f060003;
+<<<<<<< HEAD
         public static final int email_hint=0x7f06003a;
         public static final int firstname_hint=0x7f060038;
         public static final int lastname_hint=0x7f060039;
         public static final int login_button=0x7f060034;
         public static final int password_hint=0x7f060037;
         public static final int phone_hint=0x7f06003b;
+=======
+        public static final int firstname_hint=0x7f06003b;
+        public static final int hello_world=0x7f060037;
+        public static final int lastname_hint=0x7f06003c;
+        public static final int login_button=0x7f060034;
+        public static final int password_hint=0x7f06003a;
+>>>>>>> ddbaca579ec0631946f2f24b04ba3002cbcc3b1e
         public static final int signup_button=0x7f060035;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
         public static final int title_activity_map=0x7f060032;
-        public static final int username_hint=0x7f060036;
+        public static final int title_activity_pickup_menu=0x7f060036;
+        public static final int title_activity_profile=0x7f060038;
+        public static final int username_hint=0x7f060039;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */
