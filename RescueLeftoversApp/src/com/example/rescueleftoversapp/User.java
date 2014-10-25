@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public abstract class User {
 
-	private int pickupsMade;
-	private int pickupsMissed;
-	private int points;
-	private int weight;
-	private String name;
-	private String email;
-	private String phoneN;
-	private ArrayList<Pickup> currentPickups;
+	public int pickupsMade;
+	public int pickupsMissed;
+	public int points;
+	public int weight;
+	public String name;
+	public String email;
+	public String phoneN;
+	public ArrayList<Pickup> currentPickups;
 	
 /*-----------------------------------GETTERS---------------------------------*/
 	public int getPickupsMade() {
@@ -40,6 +40,12 @@ public abstract class User {
 	}
 /*-----------------------------------SETTERS---------------------------------*/
 	
+	public void setPickupsMade(int m) {
+		pickupsMade = m;
+	}
+	public void setPickupsMissed(int m) {
+		pickupsMissed = m;
+	}
 	public void setWeight(int w) {
 		weight = w;
 	}
