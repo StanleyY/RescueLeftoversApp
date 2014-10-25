@@ -1470,14 +1470,14 @@ containing a value of this type.
         public static final int rlc_logo=0x7f02007c;
     }
     public static final class id {
-        public static final int Email=0x7f080058;
-        public static final int FirstName=0x7f080055;
-        public static final int LastName=0x7f08005b;
+        public static final int Email=0x7f080059;
+        public static final int FirstName=0x7f080056;
+        public static final int LastName=0x7f08005c;
         public static final int Password=0x7f08004e;
-        public static final int Phone=0x7f080057;
-        public static final int SignupFormButton=0x7f080056;
-        public static final int SignupPassword=0x7f080059;
-        public static final int SignupUsername=0x7f08005a;
+        public static final int Phone=0x7f080058;
+        public static final int SignupFormButton=0x7f080057;
+        public static final int SignupPassword=0x7f08005a;
+        public static final int SignupUsername=0x7f08005b;
         public static final int Username=0x7f08004f;
         public static final int action_bar=0x7f08002e;
         public static final int action_bar_activity_content=0x7f080027;
@@ -1490,7 +1490,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f08005c;
+        public static final int action_settings=0x7f08005d;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
@@ -1502,6 +1502,7 @@ containing a value of this type.
         public static final int checkbox=0x7f08003f;
         public static final int classic=0x7f080011;
         public static final int collapseActionView=0x7f080020;
+        public static final int container=0x7f080054;
         public static final int default_activity_button=0x7f08003a;
         public static final int dialog=0x7f080021;
         public static final int disableHome=0x7f08001b;
@@ -1529,9 +1530,9 @@ containing a value of this type.
         public static final int never=0x7f08001c;
         public static final int none=0x7f080000;
         public static final int normal=0x7f080001;
-        public static final int pickups=0x7f08005e;
+        public static final int pickups=0x7f08005f;
         public static final int production=0x7f080007;
-        public static final int profile=0x7f08005d;
+        public static final int profile=0x7f08005e;
         public static final int progress_circular=0x7f08002a;
         public static final int progress_horizontal=0x7f08002b;
         public static final int radio=0x7f080041;
@@ -1558,7 +1559,7 @@ containing a value of this type.
         public static final int submit_area=0x7f08004b;
         public static final int tabMode=0x7f080015;
         public static final int terrain=0x7f080003;
-        public static final int textView2=0x7f080054;
+        public static final int textView2=0x7f080055;
         public static final int title=0x7f08003d;
         public static final int top_action_bar=0x7f080032;
         public static final int up=0x7f080033;
@@ -1624,14 +1625,16 @@ containing a value of this type.
         public static final int activity_pickup_menu=0x7f03001c;
         public static final int activity_profile=0x7f03001d;
         public static final int activity_signup=0x7f03001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int fragment_pickup=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
     }
     public static final class menu {
         public static final int login=0x7f0c0000;
         public static final int main=0x7f0c0001;
         public static final int map=0x7f0c0002;
-        public static final int profile=0x7f0c0003;
-        public static final int signup=0x7f0c0004;
+        public static final int pickup=0x7f0c0003;
+        public static final int profile=0x7f0c0004;
+        public static final int signup=0x7f0c0005;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1790,11 +1793,12 @@ containing a value of this type.
         public static final int signup_button=0x7f060035;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
-        public static final int title_activity_login=0x7f06003f;
+        public static final int title_activity_login=0x7f060040;
         public static final int title_activity_map=0x7f060032;
+        public static final int title_activity_pickup=0x7f06003f;
         public static final int title_activity_pickup_menu=0x7f060036;
         public static final int title_activity_profile=0x7f060038;
-        public static final int title_activity_signup=0x7f060040;
+        public static final int title_activity_signup=0x7f060041;
         public static final int username_hint=0x7f060039;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 

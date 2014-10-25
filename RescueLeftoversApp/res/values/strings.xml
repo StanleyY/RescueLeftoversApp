@@ -21,6 +21,7 @@
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
 
+    <string name="title_activity_pickup">PickupActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_signup">SignupActivity</string>
 

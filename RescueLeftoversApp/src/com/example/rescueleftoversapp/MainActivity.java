@@ -75,4 +75,8 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this, ProfileActivity.class);
 		startActivity(intent);
 	}
+	public void goMap (View v) {
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
+    }
 }

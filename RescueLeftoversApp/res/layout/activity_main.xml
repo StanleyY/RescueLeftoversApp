@@ -34,7 +34,7 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/button2"
         android:gravity="center"
-        android:onClick="goLogin"
+        android:onClick="goMap"
         android:text="@string/login_button"
         android:textColor="@color/black"
         android:textSize="22sp" />
