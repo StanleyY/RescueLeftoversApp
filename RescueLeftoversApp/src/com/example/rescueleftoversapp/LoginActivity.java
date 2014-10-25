@@ -13,6 +13,8 @@ public class LoginActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		android.app.ActionBar actionBar = getActionBar();
+        actionBar.hide();
 		setContentView(R.layout.activity_login);
 	}
 	

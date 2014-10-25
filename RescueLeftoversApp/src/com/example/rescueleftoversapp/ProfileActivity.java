@@ -23,6 +23,13 @@ public class ProfileActivity extends ActionBarActivity {
 		int p = userProfile.getPoints();
 		int pmade = userProfile.getPickupsMade();
 		int pmissed = userProfile.getPickupsMissed();
+		String upcoming = "Upcoming Pickup: ";
+		
+		if (!userProfile.getCurrentPickups().isEmpty()) {
+			upcoming = upcoming + userProfile.getCurrentPickups().get(0).restaurantName;
+		} else {
+			upcoming = upcoming + "None";
+		}
 		
 		
 		//TextField references
@@ -33,6 +40,7 @@ public class ProfileActivity extends ActionBarActivity {
 		TextView pfield = (TextView)findViewById(R.id.viewPoints);
 		TextView pmadefield = (TextView)findViewById(R.id.viewPickupsMade);
 		TextView pmissedfield = (TextView)findViewById(R.id.viewPickupsMissed);
+		TextView cplist = (TextView)findViewById(R.id.viewEvents);
 		
 		// Setting to display
 		nfield.setText("Name: "+ name);
@@ -42,6 +50,7 @@ public class ProfileActivity extends ActionBarActivity {
 		pfield.setText("Points: " + p);
 		pmadefield.setText("Pickups Made: " + pmade);
 		pmissedfield.setText("Pickups Missed: " + pmissed);
+		cplist.setText(upcoming);
 		
 	}
 
