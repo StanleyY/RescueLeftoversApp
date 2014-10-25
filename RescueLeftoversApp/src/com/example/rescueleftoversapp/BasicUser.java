@@ -4,6 +4,6 @@ import java.util.ArrayList;
 
 public class BasicUser extends User{
 	public BasicUser() {
-		setPreviousPickups(new ArrayList<Pickup>());
+		setCurrentPickups(new ArrayList<Pickup>());
 	}
 }
