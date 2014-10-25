@@ -41,7 +41,7 @@ public class Pickup {
 		EndTime = end;
 		totalWeight = weight;
 		accumulatedWeight = 0;
-		description = "";
+		description = "No Description Available";
 		numVolunteers = 0;
 		attendants = new ArrayList<UserWeightTuple>();
 		waitlist = new ArrayList<UserWeightTuple>();
